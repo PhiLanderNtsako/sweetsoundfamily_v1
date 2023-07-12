@@ -1,0 +1,11 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^about-sweet-sound-musiq about-musiq.php [NC,L]
+RewriteRule ^about-sweet-sound-visuals about-visuals.php [NC,L]
+RewriteRule ^about-sweet-sound-tech about-tech.php [NC,L]
+RewriteRule ^about-sweet-sound-agency about-agency.php [NC,L]
+
+
+Options -Indexes
